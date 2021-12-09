@@ -2,7 +2,7 @@
 	import  Entry from '../components/entry.svelte'
 	import { onMount } from 'svelte';
 	// const url = "https://gkapi.thomasorus.com"
-	const url = "http://localhost:3001/"
+	const url = "https://localhost:3001/"
 
 	let data = undefined
 

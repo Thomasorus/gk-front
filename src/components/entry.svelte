@@ -1,7 +1,7 @@
 <script>
 	export let data;
 	let entr = data
-		const url = "http://localhost:3001/"
+		const url = "https://localhost:3001/"
 
 	async function loadContent (el) {
 		const res = await fetch(`${url}fetchContent/${el}`);
