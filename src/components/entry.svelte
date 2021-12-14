@@ -1,7 +1,9 @@
 <script>
 	export let data;
 	let entr = data
-		const url = "https://gkapi.thomasorus.com"
+		const url = "https://gkapi.thomasorus.com/"
+		// const url = "http://localhost:3001/"
+
 
 	async function loadContent (el) {
 		const res = await fetch(`${url}fetchContent/${el}`);
